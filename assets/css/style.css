@@ -1,3 +1,31 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Rubik+Moonrocks&family=Stoke:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+header h1, h3 {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(69, 71, 71);
+    color: rgb(230, 253, 23);
+    font-size: 5vw;
+    font-family:Stoke;
+    text-align: center;
+    background-image: url(./images/golf\ champ.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    text-transform: capitalize;
+    
+
+}
+
+
+
+
+
+
