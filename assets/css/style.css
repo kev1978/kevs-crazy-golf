@@ -101,6 +101,15 @@ img {
   text-align: center;
  }
 
+ #connect {
+  font-size: 30px;
+  font-family: Dosis, sans-serif;
+  font-weight: 300; 
+  font-style: italic;
+  text-align: center;
+  color: #327fa8;
+ }
+
 
 
 
