@@ -18,20 +18,41 @@
         <h3>fun for all the family</h3>
     </header> 
     <div>   
-        <navbar>
-            <ul id="menu">
-                <li>
-                <a href="index.html">Home</a>
-                </li>
-                <li>
-                <a href="gallery.html">gallery</a>
-                </li>
-                <li>
-                <a href="membership.html">Membership</a>
-                </li>
-            </ul>
-        </navbar>
+        <div class="topnav">
+            <a href="index.html" >Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="membership.html" class="active">Membership</a>
+        </div>
     </div>    
+
+    <form method="post" action="https://formdump.codeinstitute.net/" class="member-form">
+        <fieldset class="membership">
+            <legend><h2>Lets Make You A Member</h2></legend>
+            <div>
+                <label for="fname" id="name">First Name</label>
+                <input type="text" id="fname" name="fname" class="text-input" required>
+            </div>
+            <div>
+                <label for="lname" id="name">Last Name</label>
+                <input type="text" id="lname" name="lname" class="text-input" required>
+            </div>
+            <div>
+                <label for="email" id="name">Email</label>
+                <input type="text" id="email" name="email-address" class="text-input" required>
+            </div>
+            
+            <label for="age" class="block-label">Age</label>
+                <select name="age" id="age">
+                    <option value="under-15">Under 15</option>
+                    <option value="15-20">15-20</option>
+                    <option value="20s">20-29</option>
+                    <option value="30s">30-39</option>
+                    <option value="40+">40+</option>
+                </select>
+                <input type="submit" value="submit" id="submit">
+            
+        </fieldset>
+    </form>
     
     <footer>
         <ul class="social-media">
